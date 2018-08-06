@@ -10,6 +10,7 @@ tags: 嵌入式Linux
 &emsp;&emsp;Linux内核中，FrameBuferr设备驱动的源码主要分布在linux/include/fb.h和linux/drivers/video/fbmem.c，它们处于FrameBuffer驱动体系结构中的中间层，它为上层的用户程序提供系统调用接口，也为底层特定硬件驱动提供了接口。
 
 -------------------
+
 1 FrameBuffer驱动程序的实现
 --
 &emsp;&emsp;从应用程序角度看，其通过内核对FrameBuffer的控制主要通过以下三种方式：
